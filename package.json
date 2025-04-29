@@ -6,6 +6,10 @@
   "engines": {
     "vscode": "^1.99.0"
   },
+  "repository": {
+    "directory": "https://github.com/oleksii-dukhovenko/svelte-smart-links",
+    "url": "https://github.com/oleksii-dukhovenko/svelte-smart-links"
+  },
   "categories": [
     "Other"
   ],
