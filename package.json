@@ -12,13 +12,9 @@
   ],
   "icon": "images/icon.png",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints.git"
+    "directory": "https://github.com/oleksii-dukhovenko/svelte-smart-links",
+    "url": "https://github.com/oleksii-dukhovenko/svelte-smart-links"
   },
-  "bugs": {
-    "url": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints/issues"
-  },
-  "homepage": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints",
   "keywords": [
     "sveltekit",
     "routes",
