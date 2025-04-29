@@ -1,25 +1,53 @@
 {
-  "name": "svelte-smart-links",
-  "displayName": "Svelte Smart Links",
-  "description": "Instantly jump from any fetch(\"/api/...\") call to its matching +server.ts (or .js) file. One click, zero file-hunting.",
+  "name": "sveltekit-smart-endpoints",
+  "displayName": "SvelteKit Smart Endpoints",
+  "description": "Ctrl/Cmd-click fetch('/api/...') to open the matching +server file in a SvelteKit project.",
   "version": "0.0.1",
+  "publisher": "oleksiidukhovenko",
   "engines": {
-    "vscode": "^1.99.0"
-  },
-  "repository": {
-    "directory": "https://github.com/oleksii-dukhovenko/svelte-smart-links",
-    "url": "https://github.com/oleksii-dukhovenko/svelte-smart-links"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints/issues"
+  },
+  "homepage": "https://github.com/OleksiiDukhovenko/sveltekit-smart-endpoints",
+  "keywords": [
+    "sveltekit",
+    "routes",
+    "endpoint",
+    "link",
+    "documentlink"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:svelte"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "svelte-smart-links.helloWorld",
-        "title": "Hello World"
+        "command": "sveltekit-endpoint-link.openEndpoint",
+        "title": "Open SvelteKit Endpoint"
+      }
+    ],
+    "languages": [
+      {
+        "id": "svelte",
+        "aliases": [
+          "Svelte"
+        ],
+        "extensions": [
+          ".svelte"
+        ]
       }
     ]
   },
