@@ -2,7 +2,7 @@
   "name": "sveltekit-smart-endpoints",
   "displayName": "SvelteKit Smart Endpoints",
   "description": "Ctrl/Cmd-click fetch('/api/...') to open the matching +server file in a SvelteKit project.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "oleksiidukhovenko",
   "engines": {
     "vscode": "^1.99.0"
