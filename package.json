@@ -30,7 +30,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "sveltekit-endpoint-link.openEndpoint",
+        "command": "sveltekit-smart-endpoints.openEndpoint",
         "title": "Open SvelteKit Endpoint"
       }
     ],
@@ -44,7 +44,17 @@
           ".svelte"
         ]
       }
-    ]
+    ],
+    "configuration": {
+      "title": "SvelteKit Smart Endpoints",
+      "properties": {
+        "sveltekit-smart-endpoints.endpointFolder": {
+          "type": "string",
+          "default": "api",
+          "description": "The folder name where API endpoints are located"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
